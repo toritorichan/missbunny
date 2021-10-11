@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    
+  <category>
+    <pattern>Hi</pattern>
+    <template>
+        <random>
+            <li>It's so nice too see you!</li>
+            <li>Hello!</li>
+        </random> 
+    </template>
+  </category>
+  
+  <category>
+    <pattern>*</pattern>
+    <template>
+        <random>
+            <li>Sorry, I can't understand.If you have any help, here is my contact:062757575.</li>
+            <li>Well. OK.If you have any help, here is my contact:062757575.</li>
+        </random> 
+    </template>
+  </category>
+  
+  <category>
+    <pattern>Yes *</pattern>
+    <template><srai>Yes</srai> <sr/></template>
+    </category>
+
+    <category>
+    <pattern>No *</pattern>
+    <template><srai>No</srai> <sr/></template>
+    </category>
+
+<category>
+<pattern>yes</pattern>
+<template><srai>Yes</srai></template>
+</category>
+
+<category>
+<pattern>no</pattern>
+<template><srai>No</srai></template>
+</category>
+
+
+ <category>
+    <pattern># STUDY OVERSEA #</pattern>
+    <template>Let us talk about study oversea</template>
+</category>
+    
+    <category>
+      <pattern>yes</pattern>
+         <that>Let us talk about study oversea</that>
+      <template>Here's some information about Master degree. Do tou want to know?</template>
+   </category>
+   
+    <category>
+      <pattern>yes</pattern>
+         <that>Do tou want to know</that>
+      <template>You can choose USA, Asia, Europe or Australasia. Which state are you interested in? </template>
+   </category>
+   
+    <category>
+      <pattern>USA</pattern>
+         <that>Which state are you interested in</that>
+      <template>The USA is the world's top study abroad destination, but countries like Canada and Brazil also attract plenty of students.</template>
+   </category>
+   
+       <category>
+      <pattern>Asia</pattern>
+         <that>Which state are you interested in</that>
+      <template>Asia's universities are vibrant and innovative, with top destinations including South Korea, Japan, Singapore, China and Hong Kong.</template>
+   </category>
+   
+        <category>
+      <pattern>Europe</pattern>
+         <that>Which state are you interested in</that>
+      <template>From the UK to Germany and from France to Switzerland, Europe is home to some of the world's most historic universities.</template>
+   </category>
+   
+      <category>
+      <pattern>Australasia</pattern>
+         <that>Which state are you interested in</that>
+      <template>Postgraduate opportunities in Australia and New Zealand are amongst the world's best, with globally ranked universities.</template>
+   </category>
+   
+    <category>
+      <pattern>no</pattern>
+         <that>Let us talk about study oversea</that>
+     <template>How about Ph.D?</template>
+    </category>
+
+    <category>
+      <pattern>yes</pattern>
+         <that>How about Ph.D</that>
+     <template>Honestly, I am not familiar with Ph.D. Hehe.</template>
+    </category>
+    
+ <category>
+      <pattern>no</pattern>
+         <that>How about Ph.D</that>
+     <template>ok, bye.</template>
+    </category>
+    
+    
+</aiml>
+
